@@ -57,7 +57,17 @@
         padding-bottom:25px ;}
 .cheader {display: flex;}
 .header {border-bottom: 1px solid #ECECEC;}
+.current::after
+ {content:"";
+position:absolute;
+width: 100%;
+height: 4px;
+top: 46px;
+display:block;
+background: #2196F3;
+border-radius: 2px;}
     .site-nav{
+    position: relative;
     list-style:none;
     font-weight: 500;
     font-size: 14px;
@@ -235,6 +245,7 @@ align-items: center;background-position: 50% 50%;}
     fill:currentColor;border: 1px solid #AFB1B8;
     border-radius: 4px;
     width: 170px; height: 92px; 
+    padding: 16px 32px;
 fill:#AFB1B8;}
 .client-logo:hover, .client-logo:focus {fill:#2196F3; border: 1px solid #2196F3; }
 

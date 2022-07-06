@@ -149,7 +149,7 @@ position:relative;
         position:absolute; 
         top:50%;
         left:50%; 
-        transform: translate(-50%, -50%)}
+        transform: translate(-50%, -50%);}
     .close {
         position:absolute;
         color:rgba(0, 0, 0, 1);
@@ -163,6 +163,7 @@ position:relative;
         border: 1px solid rgba(0, 0, 0, 0.1);
         border-radius: 50%;
         cursor:pointer;}
+    
     .button {
         padding: 10px 32px; 
         font-size: 16px;

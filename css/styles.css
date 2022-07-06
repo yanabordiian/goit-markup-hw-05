@@ -440,7 +440,7 @@ margin-bottom: 4px;}
     
  .nav {display: flex; align-items: center;}  
  .posters {display: block; max-width:  100%; height: auto;} 
- .shadow {display:block; }
+ .shadow {display:block;}
 
 .portfolio-list {display:flex; flex-wrap:wrap; gap:30px;}
 .portfolio-list:nth-child(3n + 1) {padding-right: 0px;}

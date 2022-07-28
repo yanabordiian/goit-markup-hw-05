@@ -83,7 +83,8 @@ border-radius: 2px;}
     .contact {color: #757575;}
    .mail {margin-right: 10px; fill:currentColor;}
    .mail:hover, .mail:focus {fill:#2196F3;}
-    .link {text-decoration: none;list-style:none; margin-right: 50px; padding-top: 32px;
+   .link {margin-right: 50px;}
+    .link {text-decoration: none;list-style:none; padding-top: 32px;
         padding-bottom: 32px;}
     .link:hover, .link:focus{color:#2196F3;}
     .communication {

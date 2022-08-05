@@ -190,7 +190,7 @@ position:relative;
         color: #FFFFFF;
         background: #188CE8;
         }
-    .vector-icons {background: #F5F4FA;
+    .vector-icons::before {background: #F5F4FA;
         border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px; }
     .details {background-image: url(../images/иконки/details.svg);}
     .punctuality {background-image: url(../images/иконки/punctuality.svg);}

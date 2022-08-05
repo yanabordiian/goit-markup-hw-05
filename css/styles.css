@@ -190,13 +190,16 @@ position:relative;
         color: #FFFFFF;
         background: #188CE8;
         }
-    .vector-icons::before {background: #F5F4FA;
-        border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px; }
-    .details {background-image: url(../images/иконки/details.svg);}
-    .punctuality {background-image: url(../images/иконки/punctuality.svg);}
-    .planning {background-image: url(../images/иконки/planning.svg);}
-    .astronaut {background-image: url(../images/иконки/astronaut.svg);}
-    .vector {display: inline; align-items: center; }
+    .vector-icons::before{
+        display:block;
+        content:"";
+        background: #F5F4FA;
+        border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px; margin-right: 30px;}
+    .details::before {background-image: url(../images/иконки/details.svg);}
+    .punctuality::before {background-image: url(../images/иконки/punctuality.svg);}
+    .planning::before {background-image: url(../images/иконки/planning.svg);}
+    .astronaut::before {background-image: url(../images/иконки/astronaut.svg);}
+    .vector::before {display: inline; align-items: center; }
     .main { list-style: none; background:#FFFFFF; 
         display:flex;
     }
@@ -223,7 +226,6 @@ position:relative;
         letter-spacing: 0.03em;
         color: #212121;margin-bottom: 50px;}
     
-    .inform { margin-right: 30px;}
     .photowork:not(:last-child) { margin-right: 30px;}
     .photowork {position:relative;}
     .workphoto { content:""; display: block; max-width: 100%;height: auto;}

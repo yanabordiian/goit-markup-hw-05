@@ -197,7 +197,7 @@ position:relative;
         border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px;}
     .details::before {background-image: url(../images/иконки/details.svg);margin-right:30px;}
     .punctuality::before {background-image: url(../images/иконки/punctuality.svg);width: 270px; margin-right:30px;}
-    .planning::before {background-image: url(../images/иконки/planning.svg);}
+    .planning::before {background-image: url(../images/иконки/planning.svg);margin-right:30px;}
     .astronaut::before {background-image: url(../images/иконки/astronaut.svg);}
     .vector::before {display: inline; align-items: center; }
     .main { list-style: none; background:#FFFFFF; 
@@ -211,6 +211,7 @@ position:relative;
         text-transform: uppercase;
         color: #212121;margin-bottom: 10px;}
     .main-text {
+        max-width: 270px;
         font-weight: 400;
         font-size: 14px;
         line-height: 1.71;

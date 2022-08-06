@@ -190,14 +190,16 @@ position:relative;
         color: #FFFFFF;
         background: #188CE8;
         }
+    .vector-icons {width:270px;}
+    .vector-icons:not(:last-child) { margin-right: 30px;}
     .vector-icons::before{
         display:block;
         content:"";
         background: #F5F4FA;
         border-radius: 4px; width:270px; height:120px; background-repeat: no-repeat; background-position: center;margin-bottom: 30px;}
-    .details::before {background-image: url(../images/иконки/details.svg);margin-right:30px;}
-    .punctuality::before {background-image: url(../images/иконки/punctuality.svg);width: 270px; margin-right:30px;}
-    .planning::before {background-image: url(../images/иконки/planning.svg);margin-right:30px;}
+    .details::before {background-image: url(../images/иконки/details.svg);}
+    .punctuality::before {background-image: url(../images/иконки/punctuality.svg);width: 270px;}
+    .planning::before {background-image: url(../images/иконки/planning.svg);}
     .astronaut::before {background-image: url(../images/иконки/astronaut.svg);}
     .vector::before {display: inline; align-items: center; }
     .main { list-style: none; background:#FFFFFF; 
